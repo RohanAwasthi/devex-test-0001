@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "devex-test-0001"
+  description: "this is for testing"
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/RohanAwasthi/devex-test-0001
+      title: "devex-test-0001"
+      icon: code
+  tags:
+    - java
+    - azure
+    - applicationtype-webapplication
+  annotations:
+    jenkins.io/github-folder: 'apache-azure-app/devex-test-0001'
+    jenkins.io/job-full-name: 'apache-azure-app/devex-test-0001'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  RohanAwasthi/devex-test-0001
+    backstage.io/linguist: https://github.com/RohanAwasthi/devex-test-0001
+    azure.com/tag-selector: 'pid/devex-test-0001'
+spec:
+  type: service
+  lifecycle: development
+  owner: group:default/ey
